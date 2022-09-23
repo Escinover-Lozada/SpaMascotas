@@ -1,0 +1,5 @@
+beans\Mascota.class
+beans\Servicio.class
+beans\Usuario.class
+beans\Reserva.class
+servlets\PruebaServlet.class

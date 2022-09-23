@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+    
+        <!-- Nombre pestaña E Icono -->
+        <title> H@PPY PET</title>
+        <link rel="shortcut icon" href="img/image2.png" type="image/>x-icon">
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Extensiones para el Icono -->
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>    
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="C:\Users\escin\OneDrive\Documentos\NetBeansProjects\Spa_Mascotas\src\main\webapp\css">
+
+        <!=============================================>
+        <!-- ENCABEZADO -->
+        <!=============================================>
+
+    <div class=" container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom border-primary">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">H@ppy pet's!</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="MenuNavegacion" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                       <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Servicios</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Spa</a></li>
+                                <li><a class="dropdown-item" href="#">Baño</a></li>
+                                <li><a class="dropdown-item" href="#">Peluqueria</a></li>
+                                <li><a class="dropdown-item" href="#">Guarderia</a></li>  
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Reserva tu cita</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Equipo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</head>
+<body>
+    <!=============================================>
+    <!<!-- SLIDER DE IMAGENES -->
+    <!=============================================>
+    
+   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/slider1.jpg" class="d-block w-100" alt="slide1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slider2.jpg" class="d-block w-100" alt="slide2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slider3.jpg" class="d-block w-100" alt="slide3">
+            </div> 
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!=============================================>
+    <!-- INTRO -->
+    <!=============================================>
+
+    <section class="w-50 mx-auto text-center pt-5" id="Inicio">
+        <h1 class="p-3 fs-2 border-top border-3">Es un spa unico para todas las necesidades de tu <span class="text-primary"> Mascota</span></h1>
+        <p class="p-3 fs-4"><span class="text-primary"> H@ppy pet's</span> es el unico spa donde ayudamos a la buena salud e higiene de tu mejor amigo. Baño, Corte de pelo, uñas, paseos, estadia</p>
+    </section>
+
+    <!=============================================>
+    <!-- SERVICIOS -->
+    <!=============================================>
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto  servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+                <img src="img/servicios/servicio3.jpg"  alt="Spa para mascotas" width="180" height=160>
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1"> Spa para mascotas </h3>
+                    <p class="px-4">El objetivo de esta técnica es que tu mascota puedan relajarse, 
+                        aliviando sus molestias físicas, dejando su rabia y temores que lo agobian frecuentemente.</p>
+                </div>                       
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+                <img src="img/servicios/servivio1.jpg"  alt="Baño Especializado" width="180" height=160>
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">  Baño Especializado </h3>
+                    <p class="px-4">Se trata de un hábito esencial para cuidar de su higiene, que ayuda al animal a eliminar 
+                        malos olores y a mantener su pelaje y piel sanos.</p>
+                </div>                       
+            </div>
+        </div>
+        <div class="row w-75 mx-auto  servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+                <img src="img/servicios/servicio2.jpg"  alt="Peluqueria canina" width="180" height=160>
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1"> Peluqueria Canina </h3>
+                    <p class="px-4">El objetivo es mejorar la higiene y la apariencia de nuestra mascota, por lo que sus funciones 
+                        principales son peinar, limpiar, cortar el pelo y cepillar</p>
+                </div>                       
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+                <img src="img/servicios/servicio4.jpg"  alt="Baño Especializado" width="180" height=160>
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">  Guarderia Canina </h3>
+                    <p class="px-4"> No tenemos jaulas, tu perro estará a sus anchas, teniendo siempre disponible una zona de juegos,
+                        otra para descansar y una más para comer y beber.</p>
+                </div>                       
+            </div>
+        </div>
+    </section>
+    <!=============================================>
+    <!-- FORMULARIO -->
+    <!=============================================>
+
+
+    
+    
+     <!=============================================>
+    <!-- EQUIPO DE TRABAJO -->
+    <!=============================================>
+    
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
